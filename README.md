@@ -1,0 +1,1 @@
+This is a basic html project that demonstrates my skills in creating a basic layout for a webpage. Including using links, headers, paragraphs, and lists.
