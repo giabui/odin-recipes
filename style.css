@@ -48,8 +48,9 @@ img{
 
 .placement{
     font-family:  optima, "Noto Sans", sans-serif;
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    gap: 3%;
 }
