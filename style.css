@@ -59,9 +59,26 @@ img{
     gap: 3%;
 }
 
-#mac-img{
+.image-center{
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
 }
+
+.main .description{
+    color: #28282B;
+    margin-top: 40px;
+
+}
+
+.main .para{
+    color: #28282B;
+    margin-top: 0px;
+}
+
+.lists{
+    color: #28282B;
+    font-family: optima, "Noto Sans", sans-serif;
+}
+
