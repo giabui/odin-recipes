@@ -4,7 +4,8 @@ body{
 
 .title{
     background-color: rgb(250, 199, 199);
-    height: 230px;
+    padding-bottom: 30px;
+    padding-top: 10px;
 }
 
 .title.new-height{
@@ -15,6 +16,11 @@ body{
 .title.new-height .main{
     margin: 0px;
     padding-top:10px;
+}
+
+img.choco-height{
+    width: 200px;
+    height: auto; 
 }
 
 .main{
