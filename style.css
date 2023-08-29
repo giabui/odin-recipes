@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+.title{
+    background-color: rgb(250, 199, 199);
+    height: 230px;
+}
+
+.main{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: optima, "Noto Sans", sans-serif;
+}
+
+.odin-header{
+    font-size: 50px;
+    padding-top: 20px;
+    margin:0;
+}
+
+.comfort-header{
+    font-size: 30px;
+}
+
+form{
+    display: inline;
+    width: 200px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+#box{
+    text-align: center;
+}
+
+#para{
+    color: black;
+}
+
+.link{
+    display: inline-block;
+}
+
