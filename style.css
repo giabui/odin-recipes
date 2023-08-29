@@ -30,15 +30,24 @@ form{
     margin: 0 auto;
 }
 
-#box{
-    text-align: center;
-}
-
 #para{
     color: black;
 }
 
 .link{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
 }
 
+img{
+    width: 200px;
+    height: auto;
+}
+
+.placement{
+    font-family:  optima, "Noto Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
