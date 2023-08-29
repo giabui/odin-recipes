@@ -4,13 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width>, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="recipes/mac-cheese.html">Mac and Cheese</a></li>
-        <li><a href="recipes/bread.html">Bread</a></li>
-        <li><a href="recipes/hot-choco.html">Hot Chocolate</a></li>
-    </ul>
+    <div class="title">
+        <h1 class=" main odin-header">Odin Recipes</h1>
+        <h2 class="main comfort-header"><em>Comfort Food</em></h2>
+        <div class="main">
+            <form>
+                <input type="text" placeholder="Find a recipe"/>
+                <button type="submit" class="search-button">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <div >
+        <p id="para" class="main">"Comfort food. So simple. So good."</p>
+    </div>
+
+    <div class="main">
+        <div class="link">
+            <a href="recipes/mac-cheese.html">Mac and Cheese</a>
+        </div>
+        <div class="link">
+            <a href="recipes/bread.html">Bread</a>
+        </div>
+        <div class="link">
+            <a href="recipes/hot-choco.html">Hot Chocolate</a>
+        </div> 
+    </div> 
 </body>
 </html>
