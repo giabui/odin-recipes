@@ -9,6 +9,12 @@ body{
 
 .title.new-height{
     height: 270px;
+    margin-top:0px;
+}
+
+.title.new-height .main{
+    margin: 0px;
+    padding-top:10px;
 }
 
 .main{
