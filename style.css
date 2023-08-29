@@ -40,10 +40,11 @@ form{
     margin: 0 auto;
 }
 
-#para{
-    color: black;
+#index-para{
+    color: #28282B;
     margin-top: 40px;
 }
+
 
 .link{
     display: flex;
