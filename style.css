@@ -19,7 +19,7 @@ body{
     margin:0;
 }
 
-.comfort-header{
+#comfort-header{
     font-size: 30px;
 }
 
@@ -32,6 +32,7 @@ form{
 
 #para{
     color: black;
+    margin-top: 40px;
 }
 
 .link{
