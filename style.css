@@ -1,56 +1,63 @@
 body{
-    margin: 0;
+    margin: 0; 
+    background-image: url("cute-coco.jpeg");
+    background-size: 300px;
+    background-repeat: repeat-x;
+    background-color: rgb(236, 239, 241);
 }
 
-.title{
-    background-color: rgb(250, 199, 199);
-    padding-bottom: 30px;
-    padding-top: 10px;
-}
-
-.title.new-height{
-    height: 270px;
-    margin-top:0px;
-}
-
-.title.new-height .main{
-    margin: 0px;
-    padding-top:10px;
-}
-
-img.choco-height{
-    width: 200px;
-    height: auto; 
-}
-
-.main{
-    text-align: center;
-    color: #FFFFFF;
+*{
     font-family: optima, "Noto Sans", sans-serif;
 }
 
-.odin-header{
-    font-size: 50px;
-    padding-top: 20px;
-    margin:0;
+/* .title.new-height{
+    height: 270px;
+    margin-top:0px;
+} */
+
+/* .title.new-height .main{
+    margin: 0px;
+    padding-top:10px;
+} */
+
+/* img.choco-height{
+    width: 200px;
+    height: auto; 
+} */
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #comfort-header{
-    font-size: 30px;
+    font-size: 50px;
+    background-color: rgb(236, 239, 241);
+    color: rgb(246, 113, 151);
+    display: inline-block;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
 }
 
-form{
+.search-bar{
+    display: block;
+    text-align: center;
+}
+
+/* form{
     display: inline;
     width: 200px;
     height: 20px;
     margin: 0 auto;
-}
+} */
 
 #index-para{
     color: #28282B;
     margin-top: 40px;
+    text-align: center;
 }
-
 
 .link{
     display: flex;
@@ -65,33 +72,33 @@ img{
 
 .placement{
     font-family:  optima, "Noto Sans", sans-serif;
-    margin-top: 80px;
+    margin-top: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 3%;
 }
-
+/* 
 .image-center{
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
-}
+} */
 
-.main .description{
+/* .main .description{
     color: #28282B;
     margin-top: 40px;
 
-}
-
+} */
+/* 
 .main .para{
     color: #28282B;
     margin-top: 0px;
-}
+} */
 
-.lists{
+/* .lists{
     color: #28282B;
     font-family: optima, "Noto Sans", sans-serif;
-}
+} */
 
