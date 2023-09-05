@@ -1,3 +1,6 @@
+
+/* whole body of page style */
+
 body{
     margin: 0; 
     background-image: url("cute-coco.jpeg");
@@ -10,6 +13,26 @@ body{
     font-family: optima, "Noto Sans", sans-serif;
 }
 
+/* navigation bar section style */
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    margin-right: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(246, 113, 151);
+    font-size: 20px;
+    background-color:rgb(236, 239, 241) ;
+}
 /* .title.new-height{
     height: 270px;
     margin-top:0px;
@@ -49,12 +72,6 @@ body{
     margin: 0 auto;
 } */
 
-#index-para{
-    color: #28282B;
-    margin-top: 40px;
-    text-align: center;
-}
-
 .link{
     display: flex;
     flex-direction: column;
@@ -67,7 +84,6 @@ img{
 }
 
 .placement{
-    font-family:  optima, "Noto Sans", sans-serif;
     margin-top: 150px;
     display: flex;
     justify-content: center;
